@@ -1,12 +1,10 @@
  package projets;
 /**
  * 
- * @author Inconnu
+ * @author MOI
  *
  */
 public class Faction
-{
-	
-	private String  nomFaction;
-	
+{	
+	private String  nomFaction;	
 }

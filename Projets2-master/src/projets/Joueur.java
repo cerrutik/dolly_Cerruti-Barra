@@ -12,23 +12,14 @@ public class Joueur
 {
 	
 	public int numeroJoueur;
-
 	public Batiments[] constructions;
-	
 	public int nConstruction;
-
-	private int or;
-	
+	private int or;	
 	private int nourriture;
-
-	public Unite[] unite;
-	
-	public Villageois[] villageois;
-	
-	public int nUnite;
-	
-	public int nVillageois;
-	
+	public Unite[] unite;	
+	public Villageois[] villageois;	
+	public int nUnite;	
+	public int nVillageois;	
 	public Terrain map;
 	
 	public Joueur(int num, int x , int y, Terrain map)

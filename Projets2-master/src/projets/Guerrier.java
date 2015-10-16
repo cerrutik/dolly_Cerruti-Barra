@@ -19,8 +19,5 @@ public class Guerrier extends Unite
 		this.coutNourriture =100;
 		map.xcase[x][y]= new Case (x,y,2);
 		this.typeUnite = 2;
-	}
-	
-	
-    
+	}    
 }

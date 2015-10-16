@@ -20,9 +20,4 @@ public class Ferme extends Batiments
 		this.generer = new GenererNourriture();
 		map.xcase[x][y]= new Case (x,y,8);
 	}
-	
-	public void creerUnite(Joueur j)
-	{
-		
-	}
 }

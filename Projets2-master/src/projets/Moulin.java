@@ -18,12 +18,5 @@ public class Moulin extends Batiments
 		this.coutNourriture = 30;
 		this.rechercher = false;
 		map.xcase[x][y]= new Case (x,y,9);
-	}
-	
-	public void creerUnite(Joueur j)
-	{
-		
-	}
-	
-	
+	}	
 }

@@ -20,8 +20,4 @@ public class Mine extends Batiments
 		this.coutNourriture = 100;
 		map.xcase[x][y]= new Case (x,y,7);
 	}
-
-	public void creerUnite(Joueur j)
-	{
-	}
 }

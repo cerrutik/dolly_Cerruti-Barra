@@ -19,8 +19,5 @@ public class Forum extends Batiments
 		this.rechercher = true;
 		this.recruter = new RecruterVillageois();
 		map.xcase[x][y]= new Case (x,y,6);
-	}
-	
-
-    
+	}    
 }

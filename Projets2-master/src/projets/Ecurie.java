@@ -19,9 +19,5 @@ public class Ecurie extends Batiments
 		this.rechercher = true;
 		this.recruter = new RecruterCavalier();
 		map.xcase[x][y]= new Case (x,y,10);
-	}
-	
-	
-    
-   
+	}   
 }
