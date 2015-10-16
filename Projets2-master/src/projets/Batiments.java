@@ -9,38 +9,26 @@ import comportement.*;
  */
 abstract class Batiments {	
 	
-// Différents attributs
-	
-	// Attribut de l'or du joueur
 	protected long Or;
 
-	// Attribut de la nourriture du joueur
 	protected long Nourriture;
 	
-	// Attribut point de vie
 	protected int pointVie;
 	
-	// Attribut point de défense
 	protected int pointDefense;
-	
 	
 	protected GenererRessources generer = null;
 	
 	protected Recruter recruter = null;
 	
-	// Attribut booléen de recherche
 	protected boolean rechercher;
 	
-	// Attribut du cout en or
 	protected int coutOr;
 	
-	// Cout en nourriture du bâtiment
 	protected int coutNourriture;
 	
-	//  Coordonnée x de position du batiment
 	public int coordonnee_x;
 
-	// Coordonnée y de position du batiment
 	public int coordonnee_y;
 
 	public Terrain map;

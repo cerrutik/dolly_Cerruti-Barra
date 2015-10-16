@@ -13,6 +13,6 @@ public class RecruterVillageois extends Recruter
 	    	{
 	    	j.addUnite(vil);
 	    	}
- 
+	    
     }
 }
