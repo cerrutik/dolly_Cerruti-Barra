@@ -27,34 +27,24 @@ public class Case {
 	
 public int typeDeCase;
 
-// coordonnées
+// Coordonnees
 public int x,y ;
-
 
 public Case(int xx , int xy, int xtypeDeCase)
 {
 	this.x = xx;
 	this.y = xy;
 	this.typeDeCase = xtypeDeCase;
-	
 			
 }
 
-
-/**
- * 
- * 30 equivaut a un guerrier
- * @author Nico
- * @param xx
- */
-//public void setCase(TypeUnite xx)
-//{
-	//if(xx.getPointAttaque() == 30)
-	//{
-		//this.typeDeCase = 2;
-	//}
-	//else if()
-//}
+public void setCase(Unite typeUnite)
+{
+	if(typeUnite.getPointAttaque() == 30)
+	{
+		this.typeDeCase = 2;
+	}
+}
 
 public void setCase(String sol)
 {
@@ -62,7 +52,6 @@ public void setCase(String sol)
 	{
 		this.typeDeCase = 0;
 	}
-    // Eventuellement strcmp
     if(sol.equals("Rocher"))
     {
     	this.typeDeCase = 1;
