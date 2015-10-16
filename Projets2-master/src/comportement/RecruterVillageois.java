@@ -10,9 +10,8 @@ public class RecruterVillageois extends Recruter
     {
     	Villageois vil = new Villageois(0,0,null);
 	    if (consommerRessources(j,vil) == true)
-	    	{
+	    {
 	    	j.addUnite(vil);
-	    	}
-	    
+	    }	    
     }
 }

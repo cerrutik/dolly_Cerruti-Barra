@@ -14,5 +14,4 @@ public interface Construction
 	public Ferme construireFerme(Joueur j);
 	public Mine construireMine(Joueur j);
 	public Moulin construireMoulin(Joueur j);
-
 }

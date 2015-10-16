@@ -9,10 +9,8 @@ public class RecruterCavalier extends Recruter
 	{
 			Cavalier cav = new Cavalier(0,0,null);
 		    if (consommerRessources(j,cav) == true)
-		    	{
+		    {
 		    	j.addUnite(cav);
-		    	}
-
-	    
+		    }	    
 	}
 }

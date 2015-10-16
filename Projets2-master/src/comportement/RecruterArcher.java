@@ -10,9 +10,8 @@ public class RecruterArcher extends Recruter
 			Archer archer = null;
 			archer = new Archer(0,0,null);
 		    if (consommerRessources(j,archer) == true)
-		    	{
+		    {
 		    	j.addUnite(archer);
-		    	}
-	    
+		    }  
 	}
 }
