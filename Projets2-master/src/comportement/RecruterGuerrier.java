@@ -9,7 +9,7 @@ public class RecruterGuerrier extends Recruter
 		public void creerUnite(Joueur j)
 		{
 				
-				Guerrier guerrier = new Guerrier();
+				Guerrier guerrier = new Guerrier(0,1,null);
 			    if (consommerRessources(j,guerrier) == true)
 			    	{
 			    	j.addUnite(guerrier);

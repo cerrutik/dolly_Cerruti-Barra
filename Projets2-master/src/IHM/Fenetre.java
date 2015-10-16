@@ -110,8 +110,8 @@ private JMenuBar menuBar = new JMenuBar();
     /**
      * create the first panel
      */
-   // JPanel pan = new JPanel(new BorderLayout());
-   // pan.add(new ImagePanel(new ImageIcon("map.jpg").getImage()));
+    
+    pan.add(new ImagePanel(new ImageIcon("map.jpg").getImage()));
     
     /**
      * create a new panel, pan2
